@@ -1,0 +1,3 @@
+accessor
+to
+	^ tox@toy

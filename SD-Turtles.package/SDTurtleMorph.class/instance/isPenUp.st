@@ -1,0 +1,3 @@
+turtle
+isPenUp
+	^ ispenup

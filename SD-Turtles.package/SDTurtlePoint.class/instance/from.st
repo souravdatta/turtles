@@ -1,0 +1,3 @@
+accessor
+from
+	^ fromx@fromy

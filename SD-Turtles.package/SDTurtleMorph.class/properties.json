@@ -1,0 +1,18 @@
+{
+	"category" : "SD-Turtles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "souravdatta 4/2/2017 12:54",
+	"instvars" : [
+		"tx",
+		"ty",
+		"points",
+		"angle",
+		"ispenup" ],
+	"name" : "SDTurtleMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

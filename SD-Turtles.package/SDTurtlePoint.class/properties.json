@@ -1,0 +1,18 @@
+{
+	"category" : "SD-Turtles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fromx",
+		"fromy",
+		"tox",
+		"toy",
+		"withpen" ],
+	"name" : "SDTurtlePoint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

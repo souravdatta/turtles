@@ -1,0 +1,3 @@
+turtle
+penUp
+	ispenup := true
