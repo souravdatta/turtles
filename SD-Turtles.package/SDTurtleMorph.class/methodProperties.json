@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"size" : "souravdatta 4/2/2017 12:35" },
+		"size" : "souravdatta 4/2/2017 12:35",
+		"unitRadius:" : "souravdatta 4/3/2017 13:48" },
 	"instance" : {
+		"arc:radius:direction:" : "souravdatta 4/3/2017 13:47",
 		"back:" : "souravdatta 4/2/2017 12:51",
 		"centerPosition" : "souravdatta 4/2/2017 12:35",
 		"drawOn:" : "souravdatta 4/2/2017 12:53",
