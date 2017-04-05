@@ -10,7 +10,8 @@
 		"ty",
 		"points",
 		"angle",
-		"ispenup" ],
+		"ispenup",
+		"turtleHidden" ],
 	"name" : "SDTurtleMorph",
 	"pools" : [
 		 ],

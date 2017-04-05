@@ -4,13 +4,15 @@
 		"arcR:radius:" : "souravdatta 4/3/2017 13:45",
 		"back:" : "souravdatta 3/28/2017 13:27",
 		"forward:" : "souravdatta 3/28/2017 13:26",
+		"hideTurtle" : "souravdatta 4/5/2017 22:57",
 		"left:" : "souravdatta 3/28/2017 13:28",
-		"off" : "souravdatta 3/28/2017 21:29",
-		"on" : "souravdatta 4/2/2017 13:02",
+		"off" : "souravdatta 4/5/2017 22:54",
+		"on" : "souravdatta 4/5/2017 22:53",
 		"penDown" : "souravdatta 3/28/2017 13:28",
 		"penUp" : "souravdatta 3/28/2017 13:28",
 		"reset" : "souravdatta 4/5/2017 22:04",
 		"right:" : "souravdatta 3/28/2017 13:27",
+		"showTurtle" : "souravdatta 4/5/2017 22:57",
 		"validate" : "souravdatta 3/28/2017 13:24" },
 	"instance" : {
 		 } }

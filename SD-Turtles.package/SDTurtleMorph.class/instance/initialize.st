@@ -6,4 +6,5 @@ initialize
 	self initTurtlePosition.
 	points := OrderedCollection new.
 	angle := 0.
-	ispenup := false
+	ispenup := false.
+	turtleHidden := false

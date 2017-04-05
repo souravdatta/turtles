@@ -1,0 +1,3 @@
+turtle
+hideTurtle
+	turtleMorph hideTurtle
