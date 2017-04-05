@@ -7,7 +7,7 @@ A very basic, under construction tool for turtle graphics that I am writing to l
     SDTurtle on.
     
     tree := [ :size |
-   	    (size >= 1) ifTrue: [
+	    (size >= 1) ifTrue: [
 		    SDTurtle forward: size; right: 45.
 		    tree value: (size / 2).
 		    SDTurtle left: 90.
@@ -43,7 +43,7 @@ A very basic, under construction tool for turtle graphics that I am writing to l
     SDTurtle on.
     
     ray := [ :size | 2 timesRepeat: [ SDTurtle arcR: 60 radius: size;
-    								    arcL: 60 radius: size ] ].
+					       arcL: 60 radius: size ] ].
     sun := [ :size | 9 timesRepeat: [ ray value: size. SDTurtle right: 160 ] ].
     
     sun value: 40
@@ -55,7 +55,7 @@ A very basic, under construction tool for turtle graphics that I am writing to l
     SDTurtle on.
     
     ray := [ :size | 2 timesRepeat: [ SDTurtle arcR: 60 radius: size; penUp;
-								    arcL: 60 radius: size; penDown ] ].
+					       arcL: 60 radius: size; penDown ] ].
     sun := [ :size | 9 timesRepeat: [ ray value: size. SDTurtle right: 160 ] ].
     
     sun value: 40
