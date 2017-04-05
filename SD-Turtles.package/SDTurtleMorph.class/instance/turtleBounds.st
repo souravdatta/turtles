@@ -1,6 +1,7 @@
-turtle
+drawing
 turtleBounds
 	| size |
 	
 	size := self class size.
-	^ ((tx - size)@(ty - size)) corner: ((tx + size)@(ty + size))
+	^ ((self left + (tx - size))@(self top + (ty - size))) 
+			corner: ((self left + (tx + size))@(self top + (ty + size)))

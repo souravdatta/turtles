@@ -1,12 +1,17 @@
 drawing
 drawOn: aCanvas
 	super drawOn: aCanvas.
-	(points size < 1) ifTrue: [ ^ self ].
+	(points size < 1) ifTrue: [ ^ self drawTurtle: aCanvas ].
 	points do: [ :aPoint |
+		| pointFrom pointTo |
+		
+		pointFrom := (self left + aPoint from x)@(self top + aPoint from y).
+		pointTo := (self left + aPoint to x)@(self top + aPoint to y).
+		
 		(aPoint withPen) ifTrue: [  
-			aCanvas line: aPoint from to: aPoint to color: Color black. 
+			aCanvas line: pointFrom to: pointTo color: Color black. 
 		]
 	].
 
-	aCanvas fillOval: self turtleBounds color: Color red 
+	self drawTurtle: aCanvas 
 	
