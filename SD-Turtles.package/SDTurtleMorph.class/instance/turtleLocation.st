@@ -1,0 +1,3 @@
+turtle
+turtleLocation
+	^ (tx@ty)
