@@ -10,7 +10,9 @@
 		"fromy",
 		"tox",
 		"toy",
-		"withpen" ],
+		"withpen",
+		"width",
+		"height" ],
 	"name" : "SDTurtlePoint",
 	"pools" : [
 		 ],

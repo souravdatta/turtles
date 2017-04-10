@@ -8,6 +8,8 @@
 	"instvars" : [
 		"tx",
 		"ty",
+		"txwidth",
+		"tyheight",
 		"points",
 		"angle",
 		"ispenup",

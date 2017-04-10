@@ -9,9 +9,9 @@ forward: aLength
 											fromY: ty 
 											toX: ntx 
 											toY: nty 
-											withPen: ispenup not).
+											withPen: ispenup not;
+											width: self width height: self height).
 	
-	tx := ntx.
-	ty := nty.
+	self setTurtlePosition: (ntx@nty).
 	self changed.
 	
