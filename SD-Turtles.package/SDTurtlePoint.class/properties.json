@@ -1,10 +1,10 @@
 {
-	"category" : "SD-Turtles",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "SD-Turtles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"fromx",
 		"fromy",
@@ -12,9 +12,8 @@
 		"toy",
 		"withpen",
 		"width",
-		"height" ],
+		"height"
+	],
 	"name" : "SDTurtlePoint",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

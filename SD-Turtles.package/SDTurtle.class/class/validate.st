@@ -1,3 +1,3 @@
-development support
+turtle
 validate
 	turtleMorph isNil ifTrue: [ self error: 'Yo, you need to send #on first' ] 

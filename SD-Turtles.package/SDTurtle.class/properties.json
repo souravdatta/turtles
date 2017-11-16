@@ -1,14 +1,13 @@
 {
-	"category" : "SD-Turtles",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"turtleMorph" ],
 	"commentStamp" : "souravdatta 3/28/2017 13:41",
-	"instvars" : [
-		 ],
-	"name" : "SDTurtle",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "SD-Turtles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"turtleMorph"
+	],
+	"instvars" : [ ],
+	"name" : "SDTurtle",
+	"type" : "normal"
+}

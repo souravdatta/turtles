@@ -1,4 +1,4 @@
-development support
+instance management
 off
 	turtleMorph delete.
 	turtleMorph := nil

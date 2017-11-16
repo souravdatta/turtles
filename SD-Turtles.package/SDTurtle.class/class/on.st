@@ -1,4 +1,4 @@
-instance creation
+instance management
 on
 	turtleMorph isNil ifFalse: [
 		self off

@@ -1,10 +1,10 @@
 {
-	"category" : "SD-Turtles",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "souravdatta 4/2/2017 12:54",
+	"super" : "Morph",
+	"category" : "SD-Turtles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"tx",
 		"ty",
@@ -13,9 +13,8 @@
 		"points",
 		"angle",
 		"ispenup",
-		"turtleHidden" ],
+		"turtleHidden"
+	],
 	"name" : "SDTurtleMorph",
-	"pools" : [
-		 ],
-	"super" : "Morph",
-	"type" : "normal" }
+	"type" : "normal"
+}
