@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "souravdatta 11/17/2017 17:08",
+	"super" : "ComposableModel",
+	"category" : "SD-Turtles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonOn",
+		"buttonOff",
+		"buttonReset",
+		"buttonShow",
+		"buttonHide",
+		"textMessage"
+	],
+	"name" : "SDTurtleControlPanel",
+	"type" : "normal"
+}
