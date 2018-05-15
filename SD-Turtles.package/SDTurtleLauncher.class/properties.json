@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "souravdatta 5/15/2018 11:38",
+	"super" : "Object",
+	"category" : "SD-Turtles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SDTurtleLauncher",
+	"type" : "normal"
+}
