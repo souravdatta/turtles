@@ -1,6 +1,6 @@
-A very basic, under construction tool for turtle graphics that I am writing to learn Pharo and Smalltalk. Uses Morphic to draw the turtle.
+## A very basic, under construction tool for turtle graphics that I am writing to learn Pharo and Smalltalk. Uses Morphic to draw the turtle.
 
-#Example 1
+##### Example 1
 
     | tree |
     
@@ -18,7 +18,7 @@ A very basic, under construction tool for turtle graphics that I am writing to l
     
     tree value: 80
 
-#Example 2
+##### Example 2
 
     | tree |
     
@@ -36,7 +36,7 @@ A very basic, under construction tool for turtle graphics that I am writing to l
     
     tree value: 20
 
-#Example 3
+##### Example 3
 
     | ray sun |
     
@@ -48,7 +48,7 @@ A very basic, under construction tool for turtle graphics that I am writing to l
     
     sun value: 40
 
-#Example 4
+##### Example 4
 
     | ray sun |
     
@@ -59,3 +59,27 @@ A very basic, under construction tool for turtle graphics that I am writing to l
     sun := [ :size | 9 timesRepeat: [ ray value: size. SDTurtle right: 160 ] ].
     
     sun value: 40
+    
+    
+#### Installing
+* Launch a Pharo image (v 6.1 or above). I suggest to use the excellent PharoLauncher to manage your images (http://pharo.org/download).
+
+* Click anywhere to bring out the World menu and select Iceberg tool.
+
+* Click on Clone repository and add `https://github.com/souravdatta/turtles.git`. Click create repository.
+
+* After the new repo `turtles` is added in the list of repos in Iceberg, select it and click on Packages tab below.
+
+* Right click on SD-Turtles and click Load package. This should load all the code in the image. Save the image to make it stay.
+
+* Open a Playground and execute this:
+
+	SDTurtle controlPanel
+
+
+This should open a window with a set of controls to On/Off the turtle window.
+
+Have fun!!
+
+
+
